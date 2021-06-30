@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24fa7ab6-25b6-444c-95a2-74c188527f97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ud2MmM97FQ7ssIO4l8XEIl7Oun" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Mingo/Data Collector" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jyg35\Desktop\portfolio\portfolio_django\mysite\static\img" />
+      <recent name="C:\Users\jyg35\Desktop\portfolio\portfolio_django\mysite\static\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24fa7ab6-25b6-444c-95a2-74c188527f97" name="Default Changelist" comment="" />
+      <created>1624981099710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624981099710</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1625010703077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625010703077" />
+    <state x="3021" y="162" key="SettingsEditor" timestamp="1624981149448">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3021" y="162" key="SettingsEditor/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1624981149448" />
+  </component>
+</project>

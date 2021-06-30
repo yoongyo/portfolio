@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    {% load static %}
+    <!-- fullpage -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.fullpage.css' %}" />
+    <script type="text/javascript" src="{% static 'js/jquery.fullpage.js' %}"></script>
+
+    <!-- 아래는 선택사항입니다. css3:false 옵션을 쓰시면서 "linear", "swing" 또는 "easeInOutCubic" 대신 다른 전환(easing) 효과를 원하시는 경우에만 필요합니다. -->
+    <!--    <script src="vendors/easings.min.js"></script>-->
+    <!-- 아래 선은 `scrollOverflow:true` 옵션을 쓰시는 경우에만 넣으셔야 합니다. -->
+    <!--    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>-->
+    <style>
+        body {
+            background-color: rgb(247,248,249);
+        }
+        .nav-link:hover {
+            border-bottom: 4px solid #337ab7;
+        }
+
+    </style>
+</head>
+<body>
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
