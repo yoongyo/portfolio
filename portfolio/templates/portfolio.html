@@ -3,6 +3,20 @@
     {% load static %}
     <div>
         <div id="fullpage">
+            <div class="section" style="text-align: center;">
+                <div class="container">
+                    <div>
+                        <h1>정윤교</h1><br>
+                        <h1>포트폴리오</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <h3>1996.04.21 / 경기도 오산시</h3>
+                        <h3>Tel. 010-3076-3572</h3>
+                        <h3>Email. jyg0172@naver.com</h3>
+                    </div>
+                </div>
+            </div>
             <div class="section" style="text-align: center; background-color:white">
                 <div class="container">
                     <div class="row">
@@ -19,14 +33,14 @@
             <div class="section" style="text-align: center;">
                 <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col mt-4">
                             <h1>2018</h1><br>
                             <h3>스타트업 위크엔드 금상 수상(커피밋)</h3>
                             <h3>스타트업 Today's Friend CTO (2018~2019)</h3>
                             <h3>방탈출 힌트박스 제작 및 판매</h3>
                         </div>
                         <div class="col">
-                            <img src="{% static 'img/image1.jpg' %}" style="height:200px; width:300px;">
+                            <img src="{% static 'img/image1.jpg' %}" style="height:280px; width:400px;">
                         </div>
                     </div>
                 </div>
@@ -45,7 +59,7 @@
                             <h3>Tesco 회사 홈페이지 개발</h3>
                             <h3>루트이스케이프 부천점 홈페이지 개발</h3>
                             <h3>루트이스케이프 안산점 홈페이지 개발</h3>
-                            <h3>외식 페이 개발 및 스타트업 준비</h3>
+                            <h3>외식페이 개발 및 스타트업 준비</h3>
                         </div>
                     </div>
                 </div>
@@ -115,7 +129,7 @@
                             <h3>https://github.com/yoongyo/hintphone</h3>
                         </div>
                         <div class="col">
-                            <a href="https://smartstore.naver.com/bizchoollab/products/4315238593?NaPm=ct%3Dkqizvyxs%7Cci%3D32b19171b060af90762f2ed70cb8a1b0ddca08e9%7Ctr%3Dsls%7Csn%3D894447%7Chk%3D42e9d50a94922e544060c668fdc5bb20a4993ccf">
+                            <a href="https://smartstore.naver.com/bizchoollab/products/4315238593?NaPm=ct%3Dkqizvyxs%7Cci%3D32b19171b060af90762f2ed70cb8a1b0ddca08e9%7Ctr%3Dsls%7Csn%3D894447%7Chk%3D42e9d50a94922e544060c668fdc5bb20a4993ccf" target="_blank">
                                 <h3>힌트박스</h3>
                             </a>
                         </div>
@@ -129,6 +143,14 @@
                         </div>
                         <div class="col-6">
                             <h3>https://github.com/yoongyo/bible_v2</h3>
+                        </div>
+                        <div class="col-6">
+                            <a href="https://bizchool.pythonanywhere.com/" target="_blank">
+                                <h3>비즈쿨 블로그</h3>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <h3>https://github.com/yoongyo/bizchoolblog</h3>
                         </div>
                         <div class="col-6">
                             <h3>외식페이</h3>
@@ -148,6 +170,7 @@
                         <div class="col-6">
                             <h3>https://github.com/yoongyo/escapeDevice</h3>
                         </div>
+
                         <div class="col-6">
                             <h3>시스템 트레이딩</h3>
                         </div>
@@ -164,7 +187,7 @@
         $('#fullpage').fullpage({
             autoScrolling:true,
             scrollHorizontally: true,
-            anchors: ['2017', '2018', '2019', '2020-2021', 'etc', 'code'],
+            anchors: ['intro', '2017', '2018', '2019', '2020-2021', 'etc', 'code'],
             navigation: true,
             // navigationTooltips: ['2017', '2018', 2019', '2020-2021', '기타'],
             showActiveTooltips: true,
