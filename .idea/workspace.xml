@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24fa7ab6-25b6-444c-95a2-74c188527f97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +53,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1625094170163">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1625183437749">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625094170163" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625183437749" />
     <state x="3021" y="162" key="SettingsEditor" timestamp="1624981149448">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
