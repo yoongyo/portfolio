@@ -1,205 +1,281 @@
 {% extends 'base.html' %}
 {% block content %}
     {% load static %}
-    <div>
-        <div id="fullpage">
-            <div class="section" style="text-align: center;">
-                <div class="container">
-                    <div>
-                        <h1>정윤교</h1><br>
-                        <h1>포트폴리오 for ABLY</h1>
-                        <br>
-                        <br>
-                        <br>
-                        <h3>1996.04.21 / 경기도 오산시</h3>
-                        <h3>Tel. 010-3076-3572</h3>
-                        <h3>Email. jyg0172@naver.com</h3>
-                    </div>
+    <div class="container">
+        <div>
+            <img src="{% static 'img/profile.jpg' %}" width="120rem">
+            <h2 style="font-weight: 600; padding: 40px 0px">몰입을 즐기는 개발자, 정윤교입니다.</h1>
+        </div>
+
+        <div>
+            <h2 style="color:green">About Me</h2>
+            <hr>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Introduction</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>안녕하세요! 3년차 백엔드 개발자 정윤교입니다.</li>
+                        <li>새로운 기술을 배우는 것을 좋아하고 그 기술을 바로 적용하고 있습니다.</li>
+                        <li>성장욕구가 누구보다 강합니다.</li>
+                        <li>직면한 문제가 어려울수록 그 문제를 해결하고 풀어나가는 과정에서 엄청난 희열을 느끼면서 일을 합니다.</li>
+                    </ul>
                 </div>
             </div>
-            <div class="section" style="text-align: center; background-color:white">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <img src="{% static 'img/image2.png' %}" style="height:300px; width:300px;">
-                        </div>
-                        <div class="col mt-5">
-                            <h1>2017</h1><br>
-                            <h3>비즈쿨 대안학교 중•고등학생 코딩 교육(2017~2020)</h3>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Contact & Channel</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li><strong>Email</strong> | jyg0172@naver.com</li>
+                        <hr>
+                        <li><strong>Github</strong> | <a href="https://github.com/yoongyo">https://github.com/yoongyo</a></li>
+                        <li><strong>Blog</strong> | <a href="https://github.com/yoongyo">http://blog.bizchoollab.com</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="section" style="text-align: center;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col mt-4">
-                            <h1>2018</h1><br>
-                            <h3>스타트업 위크엔드 금상 수상(커피밋)</h3>
-                            <h3>스타트업 Today's Friend CTO (2018~2019)</h3>
-                            <h3>방탈출 힌트박스 제작 및 판매</h3>
-                        </div>
-                        <div class="col">
-                            <img src="{% static 'img/image1.jpg' %}" style="height:280px; width:400px;">
-                        </div>
-                    </div>
+        </div>
+
+        <div>
+            <h2 style="color:green">Skills</h2>
+            <hr>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Backend</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>Python, Nest.js, Node.js</li>
+                        <li>Django, Django Rest Framework</li>
+                        <li>Graphql</li>
+                    </ul>
                 </div>
             </div>
-            <div class="section" style="background-color: white;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col text-center" style="line-height:329.6px">
-                            <img src="{% static 'img/image4.png' %}" style="height:200px; width:300px;vertical-align:middle">
-<!--                            <img src="{% static 'img/image3.png' %}" style="height:50px; width:100px;">-->
-                        </div>
-                        <div class="col">
-                            <h1 style="text-align: center">2019</h1><br>
-                            <h3>방탈출 힌트폰 어플 개발 및 서비스 운영</h3>
-                            <h3>키워드로 보는 성경 개발 및 출시</h3>
-                            <h3>Tesco 회사 홈페이지 개발</h3>
-                            <h3>루트이스케이프 부천점 홈페이지 개발</h3>
-                            <h3>루트이스케이프 안산점 홈페이지 개발</h3>
-                            <h3>외식페이 개발 및 스타트업 준비</h3>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>DevOps</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>AWS EC2, S3, Route 53, RDS</li>
+                        <li>Sqlite3, Postgresql</li>
+                        <li>Pythonanywhere, Heroku</li>
+                        <li>Docker</li>
+                    </ul>
                 </div>
             </div>
-            <div class="section" style="text-align: center">
-                <h1>2020-2021</h1><br>
-                <h3>시스템 트레이딩(국내 선물, 코스피, 코스닥)</h3>
-                <h3>파이썬 증권 데이터 분석 및 전략 개발</h3>
-                <h3>나만의 시스템 트레이딩 앱 서비스 개발(react-native로 개발)</h3>
-            </div>
-            <div class="section" style="background-color: white; ">
-                <div class="container">
-                    <div class="row" style="text-align: center">
-                        <div class="col">
-                            <h1>ETC</h1><br>
-                            <h3>방탈출 카페 장치 제작(아두이노, 라즈베리파이)</h3>
-                            <h3>축제 스타트업(festigo) 시도</h3>
-                            <h3>이벤트 관련 스타트업(eventmoa) 시도</h3>
-                            <h3>Android용 수신 메모(bizcall) 어플 개발</h3>
-                            <h3>안민석 오산시 국회의원 공약 공공배달앱 개발 추진</h3>
-                            <h3>매년 파이콘 및 개발관련 컨퍼런스 다수 참여</h3>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Frontend</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>Html5, CSS, JS(ES6)</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>React-native</li>
+                        <li>Typescript</li>
+                        <li>Redux(React-redux, Redux-toolkit)</li>
+                    </ul>
                 </div>
             </div>
-            <div class="section" style="">
-                <div class="container">
-                    <h1 style="text-align: center">CODE</h1><br><br><br>
-                    <div class="row">
-                        <div class="col-6">
-                            <a href="https://todaysfriend.com" target="_blank">
-                                <h3>Today's friend</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/TSF1</h3>
-                        </div>
-                        <div class="col-6">
-                            <a href="https://www.route-escape.com" target="_blank">
-                                <h3>루트이스케이프(부천점)</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/roomescape</h3>
-                        </div>
-                        <div class="col-6">
-                            <a href="http://routeescape.co.kr" target="_blank">
-                                <h3>루트이스케이프(안산점)</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/roomescapehomepage</h3>
-                        </div>
-                        <div class="col-6">
-                            <a href="http://tesco.or.kr" target="_blank">
-                                <h3>(주)테스코</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/tesco</h3>
-                        </div>
-                        <div class="col-6">
-                            <a href="https://play.google.com/store/apps/details?id=com.bizchool.hintphone" target="_blank">
-                                <h3>힌트폰</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/hintphone</h3>
-                        </div>
-                        <div class="col">
-                            <a href="https://smartstore.naver.com/bizchoollab/products/4315238593?NaPm=ct%3Dkqizvyxs%7Cci%3D32b19171b060af90762f2ed70cb8a1b0ddca08e9%7Ctr%3Dsls%7Csn%3D894447%7Chk%3D42e9d50a94922e544060c668fdc5bb20a4993ccf" target="_blank">
-                                <h3>힌트박스</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/hintBox</h3>
-                        </div>
-                        <div class="col-6">
-                            <a href="https://play.google.com/store/apps/details?id=com.shammah.shammahbiblelecture" target="_blank">
-                                <h3>키워드로 보는 성경</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/bible_v2</h3>
-                        </div>
-                        <div class="col-6">
-                            <a href="https://bizchool.pythonanywhere.com/" target="_blank">
-                                <h3>비즈쿨 블로그</h3>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/bizchoolblog</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>외식페이</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/eatoutpay</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>공공배달앱</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/baedal</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>방탈출 장치</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>https://github.com/yoongyo/escapeDevice</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>시스템 트레이딩</h3>
-                        </div>
-                        <div class="col-6" style="white-space: nowrap;">
-                            <h3>주요 전략과 데이터가 포함되어 공개하지 않겠습니다</h3>
-                        </div>
-                        <div class="col-6">
-                            <h3>힌트폰 v2</h3>
-                            <h3>(ABLY에서 사용하는 기술 스택으로 개발)</h3>
-                        </div>
-                        <div class="col-6" style="white-space: nowrap;">
-                            <h3>https://github.com/yoongyo/hintphone-v2</h3>
-                        </div>
+        </div>
+
+        <div>
+            <h2 style="color:green">Work Experience & Projects</h2>
+            <hr>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Company</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>비즈쿨 대안학교 중고등학생 코딩 교육 (2017~2019)</li>
+                        <li><a href="">Tryaround - Today's Friend CTO (2018~2019)</a></li>
+                        <li>비즈쿨 연구소장 (2018~2021)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Outsourcing</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li><a href="https://www.route-escape.com/" target="_blank">루트이스케이프(부천점) 방탈출 예약 홈페이지</a></li>
+                        <li><a href="http://routeescape.co.kr/" target="_blank">루트이스케이프(안산점) 방탈출 예약 홈페이지</a></li>
+                        <li><a href="http://tesco.or.kr/" target="_blank">(주)테스코 회사 홈페이지</a></li>
+                        <li><a href="" target="_blank">키워드로 보는 성경(Android, Ios)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Personal Business Serivce</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li><a href="https://smartstore.naver.com/bizchoollab/products/4315238593?NaPm=ct%3Dkqizvyxs%7Cci%3D32b19171b060af90762f2ed70cb8a1b0ddca08e9%7Ctr%3Dsls%7Csn%3D894447%7Chk%3D42e9d50a94922e544060c668fdc5bb20a4993ccf" target="_blank">힌트박스</a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.bizchool.hintphone" target="_blank">힌트폰(전국의 방탈출 50개 이상의 업체 자동화 시스템 제공)</a></li>
+                        <li>방탈출 카페 장치 제작(아두이노, 라즈베리파이)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Personal Project</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>시스템 트레이딩(선물, 코스피, 코스닥)</li>
+                        <li>시스템 트레이딩 앱 서비스</li>
+                        <li>파이썬 증권 데이터 분석 및 전략 개발</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 style="color:green">Competition & Conference</h2>
+            <hr>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Pycon</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>매년 Pycon 컨퍼런스 참석</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Startup Weekend</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>약 54시간 동안 스타트업에 열정있는 사람들이 모여 '팀구성, 협업 및 아이템 개발' 경험을 통해 실제 창업 프로세스를 몸으로 부딪혀보는 프로그램 (2018)</li>
+                        <li>커피밋이라는 서비스로 금상 수상</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 style="color:green">Code</h2>
+            <hr>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Today's Friend</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/TSF1</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>루트이스케이프(부천점)</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/roomescape</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>루트이스케이프(안산점)</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/roomescapehomepage</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>(주)테스코</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>
+                            https://github.com/yoongyo/tesco
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>힌트박스</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/hintBox</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>힌트폰</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/hintphone</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>키워드로 보는 성경</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/bible_v2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>bizchool 블로그</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/bizchoolblog</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>방탈출 장치</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/escapeDevice</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>힌트폰 V2</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>https://github.com/yoongyo/hintphone-v2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>시스템 트레이딩</h3>
+                </div>
+                <div class="col-7">
+                    <ul>
+                        <li>주요 전략과 데이터가 포함되어 공개하지 않겠습니다</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-
-    <script>
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            autoScrolling:true,
-            scrollHorizontally: true,
-            anchors: ['intro', '2017', '2018', '2019', '2020-2021', 'etc', 'code'],
-            navigation: true,
-            // navigationTooltips: ['2017', '2018', 2019', '2020-2021', '기타'],
-            showActiveTooltips: true,
-            slidesNavigation: true,
-        });
-     });
-    </script>
 {% endblock %}

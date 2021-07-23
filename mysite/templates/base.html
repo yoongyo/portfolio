@@ -7,7 +7,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    </style>
     {% load static %}
     <!-- fullpage -->
     <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.fullpage.css' %}" />
@@ -20,6 +22,7 @@
     <style>
         body {
             background-color: rgb(247,248,249);
+            font-family: 'PT Sans', sans-serif;
         }
         .nav-link:hover {
             border-bottom: 4px solid #337ab7;
@@ -27,9 +30,19 @@
         a {
             color: black;
         }
+        h2 {
+            font-weight: 700;
+        }
+
+        h3 {
+            font-weight: 600;
+        }
+        .row {
+            padding: 20px 0px;
+        }
     </style>
 </head>
-<body>
+<body style="padding: 20px 0px">
     {% block content %}
 
     {% endblock %}
